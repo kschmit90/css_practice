@@ -1,0 +1,143 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* LAYOUT */
+
+#container{
+	background: #800000;
+	margin: 0 auto;
+}
+
+body{
+	margin: 0;
+}
+
+header img{
+	position: relative;
+	top: 12px;
+	left: 32px;
+	float: left;
+}
+
+header{
+	background: gray;
+}
+
+header ul{
+	position: relative;
+	right: 35px;
+	top: 12px;
+}
+
+header h1{
+	position: relative;
+	left: 45px;
+	bottom: 3px;
+	display: inline-block;
+	font-family: sans-serif;
+	text-transform: uppercase;
+}
+
+header li{
+	display: inline-block;
+	padding-left: 45px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+}
+
+header a{
+	text-decoration: none;
+}
+
+header nav{
+	float: right;
+}
+
+#bio{
+	clear: both;
+	background: #808000;
+	height: 500px;
+}
+
+#bio h1{
+	margin-top: 0;
+	margin-left: 40px;
+	position: relative;
+	top: 20px;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	background: url('http://placehold.it/50x50');
+	background-repeat: no-repeat;
+	background-position-x: 290px;
+}
+
+#bio p{
+	width: 600px;
+	float: left;
+	padding-left: 40px;
+	font-size: 115%;
+	line-height: 1.5;
+}
+
+#bio img{
+	position: relative;
+	float: right;
+	right: 135px;
+	bottom: 45px;
+}
+
+#environments{
+	clear: both;
+	background: #0080FF;
+	height: 500px;
+}
+
+#environments p{
+	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	position: relative;
+	top: 9px;
+	right: 7px;
+}
+
+#environments h1{
+	text-align: center;
+	font-size: 300%;
+	font-family: sans-serif;
+	text-transform: uppercase;
+}
+
+#environments h2{
+	text-align: center;
+	position: relative;
+	right: 190px;
+	top: 50px;
+	font-family: sans-serif;
+	font-size: 300%;
+	text-transform: uppercase;
+}
+
+#environments h3{
+	text-align: center;
+	position: relative;
+	left: 190px;
+	bottom: 52px;
+	font-family: sans-serif;
+	font-size: 300%;
+	text-transform: uppercase;
+}
+
+#environments h4{
+	text-align: center;
+	position: relative;
+	font-family: sans-serif;
+	font-size: 300%;
+	text-transform: uppercase;
+}
+
