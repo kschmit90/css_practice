@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "myfont";
+    src: url("a687c8ea-f73e-48df-a1dc-483578b42c98.woff") format('woff');
+}
+
+@font-face {
+    font-family: "myfont2";
+    src: url("c5a7f89e-15b6-49a9-8259-5ea665e72191.woff") format('woff');
+}
+
 html {
   box-sizing: border-box;
 }
@@ -18,19 +28,21 @@ body{
 
 header img{
 	position: relative;
-	top: 12px;
-	left: 32px;
+	top: 10px;
+	left: 41px;
 	float: left;
 }
 
 header{
-	background: gray;
+	background: rgba(255,255,255,1);
+	padding: 0;
+	height: 90px;
 }
 
 header ul{
 	position: relative;
-	right: 35px;
-	top: 12px;
+	right: 60px;
+	top: 19px;
 }
 
 header h1{
@@ -44,13 +56,17 @@ header h1{
 
 header li{
 	display: inline-block;
-	padding-left: 45px;
-	font-family: sans-serif;
+	padding-left: 40px;
+	font-family: myfont2;
 	text-transform: uppercase;
+	font-size: 1em;
+	line-height: 1.4;
 }
 
 header a{
 	text-decoration: none;
+	color: #59595B;
+	letter-spacing: 2px;
 }
 
 header nav{
@@ -59,8 +75,9 @@ header nav{
 
 #bio{
 	clear: both;
-	background: #808000;
-	height: 500px;
+	background: #F0F0F0;
+	height: 725px;
+	padding: 18px;
 }
 
 #bio h1{
@@ -69,10 +86,14 @@ header nav{
 	position: relative;
 	top: 20px;
 	text-transform: uppercase;
-	font-family: sans-serif;
-	background: url('http://placehold.it/50x50');
+	font-family: myfont;
+	font-size: 63px;
+	background: url('map.svg');
 	background-repeat: no-repeat;
-	background-position-x: 290px;
+	background-position-x: 332px;
+	background-position-y: 5px;
+	padding-bottom: 20px;
+	color: #59595B;
 }
 
 #bio p{
@@ -81,63 +102,125 @@ header nav{
 	padding-left: 40px;
 	font-size: 115%;
 	line-height: 1.5;
+	margin-bottom: 0;
 }
 
 #bio img{
 	position: relative;
 	float: right;
-	right: 135px;
-	bottom: 45px;
+	right: 80px;
+	bottom: 85px;
+	border-radius: 50%;
+	width: 90%;
+	max-width: 400px;
 }
 
 #environments{
 	clear: both;
-	background: #0080FF;
-	height: 500px;
+	background: url('clouds_with_x.jpg') center;
+	height: 1115px;
 }
 
 #environments p{
 	margin: 0;
-	text-align: center;
-	text-transform: uppercase;
-	font-family: sans-serif;
-	position: relative;
-	top: 9px;
-	right: 7px;
+	font-family: myfont;
 }
 
 #environments h1{
-	text-align: center;
-	font-size: 300%;
-	font-family: sans-serif;
-	text-transform: uppercase;
-}
-
-#environments h2{
-	text-align: center;
+	font-family: myfont;
+	margin: 0;
 	position: relative;
-	right: 190px;
-	top: 50px;
-	font-family: sans-serif;
-	font-size: 300%;
+	left: 544px;
+	top: 84px;
+	color: white;
 	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-size: 20px;
 }
 
-#environments h3{
+#env1 {
 	text-align: center;
-	position: relative;
-	left: 190px;
-	bottom: 52px;
-	font-family: sans-serif;
-	font-size: 300%;
+	font-size: 125px;
 	text-transform: uppercase;
+	color: white;
+	width: 300px;
+	position: relative;
+	left: 487px;
+	top: 152px;
+	background-image: url(http://scottdrickey.com/wp-content/themes/grainandmortar/images/1.svg);
+	background-repeat: no-repeat;
+	background-position-x: 134px;
+	background-position-y: 0px;
+	background-size: 40px;
+	padding-top: 34px;
 }
 
-#environments h4{
+#env2 {
 	text-align: center;
-	position: relative;
-	font-family: sans-serif;
-	font-size: 300%;
+	font-size: 125px;
 	text-transform: uppercase;
+	color: white;
+	width: 300px;
+	position: relative;
+	left: 172px;
+	top: 280px;
+	background-image: url(http://scottdrickey.com/wp-content/themes/grainandmortar/images/3.svg);
+	background-repeat: no-repeat;
+	background-position-x: 134px;
+	background-position-y: 0px;
+	background-size: 40px;
+	padding-top: 34px;
 }
 
+#env3 {
+	text-align: center;
+	font-size: 125px;
+	text-transform: uppercase;
+	color: white;
+	width: 300px;
+	position: relative;
+	left: 801px;
+	top: 97px;
+	background-image: url(http://scottdrickey.com/wp-content/themes/grainandmortar/images/2.svg);
+	background-repeat: no-repeat;
+	background-position-x: 134px;
+	background-position-y: 0px;
+	background-size: 40px;
+	padding-top: 34px;
+}
+
+#env4{
+	text-align: center;
+	font-size: 125px;
+	text-transform: uppercase;
+	color: white;
+	width: 300px;
+	position: relative;
+	left: 489px;
+	top: 185px;
+	background-image: url(http://scottdrickey.com/wp-content/themes/grainandmortar/images/4.svg);
+	background-repeat: no-repeat;
+	background-position-x: 134px;
+	background-position-y: 0px;
+	background-size: 40px;
+	padding-top: 34px;
+}
+
+#process{
+	background: url('water.jpg') center;
+	background-repeat: no-repeat;
+	height: 750px;
+}
+
+#process h1{
+	margin: 0;
+}
+
+footer{
+	background: url('footer.jpg') center;
+	height: 300px;
+}
+
+footer h1{
+	margin: 0;
+}
