@@ -207,7 +207,7 @@ header nav{
 }
 
 #process{
-	background: url('water.jpg') center;
+	background: url('images/water.jpg') center;
 	background-repeat: no-repeat;
 	height: 750px;
 }
@@ -217,7 +217,7 @@ header nav{
 }
 
 footer{
-	background: url('footer.jpg') center;
+	background: url('images/footer.jpg') center;
 	height: 300px;
 }
 
