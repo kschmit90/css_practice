@@ -1,11 +1,11 @@
 @font-face {
     font-family: "myfont";
-    src: url("a687c8ea-f73e-48df-a1dc-483578b42c98.woff") format('woff');
+    src: url("fonts/a687c8ea-f73e-48df-a1dc-483578b42c98.woff") format('woff');
 }
 
 @font-face {
     font-family: "myfont2";
-    src: url("c5a7f89e-15b6-49a9-8259-5ea665e72191.woff") format('woff');
+    src: url("fonts/c5a7f89e-15b6-49a9-8259-5ea665e72191.woff") format('woff');
 }
 
 html {
@@ -88,7 +88,7 @@ header nav{
 	text-transform: uppercase;
 	font-family: myfont;
 	font-size: 63px;
-	background: url('map.svg');
+	background: url('images/map.svg');
 	background-repeat: no-repeat;
 	background-position-x: 332px;
 	background-position-y: 5px;
@@ -117,7 +117,7 @@ header nav{
 
 #environments{
 	clear: both;
-	background: url('clouds_with_x.jpg') center;
+	background: url('images/clouds_with_x.jpg') center;
 	height: 1115px;
 }
 
